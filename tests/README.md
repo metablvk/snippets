@@ -5,12 +5,14 @@
 Install ` npm install -D vitest jsdom @testing-library/react @testing-library/jest-dom`
 
 ## Update vite config
+
 ```test: {
    globals: true,
    environment: 'jsdom',
    setupFiles: './src/test/setup.ts',
    css: true,
-},```
+},
+```
 
 ## Create test folder and setup.ts file
 
