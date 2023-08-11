@@ -4,6 +4,13 @@
 ## Installation
 Install ` npm install -D vitest jsdom @testing-library/react @testing-library/jest-dom`
 
+
+## Add to tsconfig
+
+```
+"types": ["vitest/globals"],
+```
+
 ## Update vite config
 
 ```
@@ -14,6 +21,7 @@ test: {
    css: true,
 },
 ```
+
 
 ## Create test folder and setup.ts file
 
