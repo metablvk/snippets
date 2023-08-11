@@ -22,6 +22,6 @@ Include import in `setup.ts` file in src/test
  
 ## add vitest to package.json 
 
-"test": "vitest"
+`"test": "vitest"`
 
 ## Create tests!
